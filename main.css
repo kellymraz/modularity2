@@ -1,0 +1,26 @@
+/* ADD YOUR STYLES HERE */
+.center-horizontally {
+	text-align: center;
+
+}	
+
+.spacing-between-items {
+	padding-right: 15px
+}
+/*.align-along-top {*/
+	/*text-align: top
+}*/
+.make-a-row {
+	 display: -webkit-flex; 
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+
+}
+
+.center-vertically {
+	position: relative;
+  	/*top: 50%;*/
+  	transform: translateY(-50%);
+
+ }

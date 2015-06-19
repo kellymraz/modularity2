@@ -7,13 +7,14 @@
 .spacing-between-items {
 	margin-right: 15px;
 }
-/*.align-along-top {*/
-	/*text-align: top
-}*/
+.align-along-top {
+	text-align: top
+
+}
+
 .make-a-row {
 	 display: -webkit-flex; 
-    -webkit-align-items: center; /* Safari 7.0+ */
-    display: flex;
+    -webkit-align-items: center; 
     align-items: center;
 }
 
@@ -32,54 +33,97 @@
 }
 
 .list-look {
-	list-style-type: none
+	list-style-type: none;
+	padding-left: 0;
 }
-/* Buttons */
 
-.daddy-button {
+/*Buttons*/
+
+.button {
 	display: inline-block;
-	height: 60px;
-	width: 200px;
-	margin: 20px auto;
-	/*padding: 50px*/
 	background-color: salmon;
 	color: white;
 	border-radius: 5px;
 	text-decoration: none;
+	margin: 20px auto;
+
+}
+
+.papa-button {
+	height: 60px;
+	width: 200px;
+	padding: 50px;
 	font-size: 20px;
 	padding-top: 25px;
 	padding-left: 100px;
-
+	
 } 
 
 .mama-button {
-	display: inline-block;
 	height: 30px;
 	width: 200px;
-	margin: 20px auto;
-	background-color: salmon;
-	color: white;
-	border-radius: 5px;
-	text-decoration: none;
 	font-size: 15px;
 	padding-top: 10px;
 	padding-left: 100px;
+	
 }
 
 .baby-button {
-	display: inline-block;
 	height: 20px;
 	width: 30px;
-	margin: 20px auto;
-	background-color: salmon;
-	color: white;
-	border-radius: 5px;
-	text-decoration: none;
 	font-size: 15px;
-	/*padding-top: 10px;
-	padding-left: 20px;*/
-
+	padding-top: 10px;
+	padding-left: 20px;
+	
 }
+
+/*Navigation Bar*/
+
+.nav-bar {
+	background-color: salmon;
+	display: inline-block;
+	height: 15px;
+	width: 20%;
+	padding: 20px 20px;
+	float: left;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+}
+	
+.rounded-corners {
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.brightness img:hover {
+	opacity: .5;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+/*If all elements inside of a container are 
+floated then the container collapses; use
+overflow: hidden on the container to force 
+it to use the floated children to calculate
+dimensions / give itself dimensions*/
+
+/*Pagination*/
+
+.pag-theme {
+	color: salmon;
+	list-style-type: none;
+}
+
+.space-btw-pag-items {
+	padding-right: 7%
+}
+
+.
 
 
 
